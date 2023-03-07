@@ -507,8 +507,8 @@ padding-block: 9px;
 .swiper-slide {
   background-position: center;
   background-size: cover;
-  width: 400px;
-  height: 400px;
+  width: 180px;
+  height: 200px;
 }
 
 .swiper-slide img {
