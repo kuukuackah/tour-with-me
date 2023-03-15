@@ -1,0 +1,137 @@
+/* Global styles */
+*
+{    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    }
+    /* Header styles */
+    header {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    }
+    
+    nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding: 0 50px;
+    }
+    
+    nav .logo {
+    font-size: 28px;
+    font-weight: 700;
+    color: #000;
+    text-decoration: none;
+    }
+    
+    nav ul {
+    display: flex;
+    list-style: none;
+    }
+    
+    nav ul li {
+    margin-left: 40px;
+    }
+    
+    nav ul li a {
+    color: #000;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    }
+    
+    nav ul li a:hover {
+    color: #ff5e14;
+    }
+    
+    nav ul li a.active {
+    color: #ff5e14;
+    border-bottom: 3px solid #ff5e14;
+    }
+    
+    /* Hero section styles */
+    .hero {
+    height: 400px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('./img/about-hero.jpg');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    
+    .hero h1 {
+    color: #fff;
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+    
+    /* About section styles */
+    .about {
+    padding: 80px 0;
+    }
+    
+    .about h2 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    color: #000;
+    }
+    
+    .about p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.8;
+    color: #333;
+    margin-bottom: 40px;
+    }
+    
+    /* Footer styles */
+    footer {
+    background-color: #000;
+    color: #fff;
+    padding: 80px 0;
+    }
+    
+    footer h4 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    }
+    
+    footer p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.8;
+    color: #fff;
+    margin-bottom: 20px;
+    }
+    
+    .social-icons {
+    display: flex;
+    list-style: none;
+    }
+    
+    .social-icons li {
+    margin-right: 20px;
+    }
+    
+    .social-icons li a {
+    color: #fff;
+    font-size: 24px;
+    transition: all 0.3s ease;
+    }
+    
+    .social-icons li a:hover {
+    color: #ff5e14;
+    }

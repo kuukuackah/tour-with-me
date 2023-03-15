@@ -16,6 +16,7 @@ header {
     url("../images/IMG_1683.JPG");
   background-repeat: no-repeat;
   background-size: cover;
+  
 }
 
 nav {
@@ -24,6 +25,7 @@ nav {
   border-bottom: 1px solid white;
   display: flex;
   align-items: center;
+  
 }
 
 .nav-container {
@@ -497,21 +499,92 @@ padding-block: 9px;
   color: red;
 }
 
-
-.swiper {
-  width: 100%;
-  padding-top: 50px;
-  padding-bottom: 50px;
+footer {
+  background-color: #2b2b2b;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  padding: 40px 0;
 }
 
-.swiper-slide {
-  background-position: center;
-  background-size: cover;
-  width: 180px;
-  height: 200px;
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-bottom: 30px;
 }
 
-.swiper-slide img {
-  display: block;
-  width: 100%;
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.logo h2 {
+  font-size: 32px;
+  margin: 0;
+}
+
+.contact-info {
+  width: 30%;
+}
+
+.contact-info h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.social-icons {
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social-icons h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.social-icons a {
+  color: #fff;
+  font-size: 20px;
+}
+
+.social-icons a:hover {
+  color: #c5c5c5;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  border-top: 1px solid #666;
+  padding-top: 20px;
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.footer-bottom p {
+  margin: 0;
+}
+
+.footer-bottom nav {
+  margin-top: 10px;
+}
+
+.footer-bottom nav a {
+  color: #c5c5c5;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+.footer-bottom nav a:hover {
+  color: #fff;
 }
