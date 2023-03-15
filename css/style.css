@@ -588,3 +588,49 @@ footer {
 .footer-bottom nav a:hover {
   color: #fff;
 }
+
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+  footer .container {
+    width: 100%;
+    padding: 0 20px;
+  }
+  
+  footer .col-md-4 {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+}
+@media screen and (max-width: 768px) {
+  /* Header */
+  nav {
+    height: auto;
+    padding: 20px;
+  }
+
+  .left, .right {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+
+  .logo {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  ul {
+    display: block;
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    margin: 10px 0;
+  }
+
+  .nav__btn {
+    margin-left: 0;
+  }
+}
